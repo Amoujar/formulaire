@@ -1,0 +1,10 @@
+//1-connexion à la db
+2-Recuperer les données deu form
+3verifier que tt les champs sont rempli
+4lancer une requete pour recuperer le user avec le login saisie
+5comparer le mot de passe saisie avec le user
+6Si user comparaison ok>is_admin ==1??
+7-si user est admin >demarrage session ,stockage dans la session d'une preuve d'identification
+//8-Redirection du usser vers la page de gestion.php(page à créer)
+//gestion des erreurs avec les variable $_session["message"]
+on cumul les message d'erreur et on redirige le user sur le form de login avec affichage de toutes ses erreurs
